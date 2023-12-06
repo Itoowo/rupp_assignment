@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CamboBlog - Food</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap5.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="img/Banco_Zaragozano_logo-1.svg">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4 sticky-top" aria-label="Offcanvas navbar large">
+        <div class="container-fluid">
+            <a class="menu_title navbar-brand" href="index.html">Cambo.Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+                aria-controls="offcanvasNavbar2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Cambo.Blog</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="main_menu navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item cate_menu" style="position: relative;">
+                            <a class="nav-link active" href="#">Category</a>
+                            <div class="cate_drop py-3">
+                                <a href="sport.html" class="nav-link">Sport</a>
+                                <a href="#" class="nav-link active">Food</a>
+                                <a href="news.html" class="nav-link">Travel</a>
+                                <a href="esport.html" class="nav-link">Esport</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="map.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                    </ul>
+                    <div class="pfp d-flex mt-3 mt-lg-0">
+                        <div class="circle">
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="circle">
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- <div class="container-fluid gif">
+        <div class="row d-flex justify-content-center cate_3">
+           
+        </div>
+    </div> -->
+    <div class="bg-banner-food">
+        <div class="bg-fade">
+            <div class="col-lg-5">
+                <h1 data-aos="fade-left" style="text-align: center; color: white;">Explore different type of food across
+                    the globe.</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="album py-4 mt-3">
+        <div class="container-lg">
+            <h1>Latest / Most Views</h1>
+            <div class="viewscate">
+                <div class="viewcate_left" style="margin-top: 20px;">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12" data-aos="zoom-in-left">
+                            <div class="card cate_box">
+                                <div class="catebox_img cate_2" data-bs-toggle="modal" data-bs-target="#food1">
+                                    <img src="img/food2.jpg" alt="">
+                                </div>
+                                <div class="catebox_desc">
+                                    Tonkatsu (豚カツ, とんかつ or トンカツ, pronounced [toŋkatsɯ]; "pork cutlet") is a Japanese dish that consists of a breaded, deep-fried pork cutlet. It involves coating slices of pork with panko (bread crumbs), and then frying them in oil.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="viewcate_right" style="margin-top: 20px;">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" data-aos="zoom-in-up">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="card cate_smallbox" data-bs-toggle="modal" data-bs-target="#food2">
+                                <img src="img/food3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="zoom-in-right">
+                            <div class="card cate_smallbox" data-bs-toggle="modal" data-bs-target="#food3">
+                                <img src="img/food4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-aos="zoom-in-left">
+                            <div class="card cate_smallbox" data-bs-toggle="modal" data-bs-target="#food4">
+                                <img src="img/food6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="album py-4">
+        <div class="container-lg">
+            <h1>Category Type</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-3">
+                <div class="col-lg col-md-12 col-sm-12 col-12" data-aos="zoom-in-left">
+                    <div class="card d-flex align-items-center justify-content-center box cate_2" data-bs-toggle="modal"
+                        data-bs-target="#food5">
+                        <img src="img/food7.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg col-md-12 col-sm-12 col-12" data-aos="zoom-in-right">
+                    <div class="card d-flex align-items-center justify-content-center box" data-bs-toggle="modal"
+                        data-bs-target="#food6">
+                        <img src="img/food8.jpg" alt="">
+                    </div>
+                    <div class="card-body"></div>
+                </div>
+                <div class="col-lg col-md-12 col-sm-12 col-12" data-aos="zoom-in-up">
+                    <div class="card d-flex align-items-center justify-content-center box" data-bs-toggle="modal"
+                        data-bs-target="#food7">
+                        <img src="img/food9.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="margin-top: 3px;">
+                <div class="col-lg col-md-12 col-sm-12 col-12" data-aos="zoom-in-right">
+                    <div class="card d-flex align-items-center justify-content-center smallerbox cate_2"
+                        data-bs-toggle="modal" data-bs-target="#food8">
+                        <img src="img/food10.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg col-md-12 col-sm-12 col-12" data-aos="zoom-in-down">
+                    <div class="card d-flex align-items-center justify-content-center smallerbox cate_2"
+                        data-bs-toggle="modal" data-bs-target="#food9">
+                        <img src="img/food14.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg col-md-12 col-sm-12 col-12" data-aos="zoom-in-left">
+                    <div class="card d-flex align-items-center justify-content-center smallerbox cate_2"
+                        data-bs-toggle="modal" data-bs-target="#food10">
+                        <img src="img/food16.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="margin-top: 3px;">
+                <div class="col-lg col-md-12 col-sm-12 col-12" data-aos="zoom-in-left">
+                    <div class="card d-flex align-items-center justify-content-center smallerbox cate_2"
+                        data-bs-toggle="modal" data-bs-target="#food11">
+                        <img src="img/food11.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg col-md-12 col-sm-12 col-12" data-aos="zoom-in-up">
+                    <div class="card d-flex align-items-center justify-content-center smallerbox cate_2"
+                        data-bs-toggle="modal" data-bs-target="#food12">
+                        <img src="img/food13.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg col-md-12 col-sm-12 col-12" data-aos="zoom-in-right">
+                    <div class="card d-flex align-items-center justify-content-center smallerbox cate_2"
+                        data-bs-toggle="modal" data-bs-target="#food13">
+                        <img src="img/food15.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container-lg cate_2" data-aos="flip-left" style="height: 300px;  margin-top: 20px;"
+                data-bs-toggle="modal" data-bs-target="#food14">
+                <img src="img/food17.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="food1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1 class="text-center text-uppercase fw-bold py-3" style="
+                        color: rgb(46, 62, 81);
+                        font-size: 48px;
+                        margin-bottom: -10px;
+                      ">
+                        Newcastle Vs Man UTD
+                    </h1>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                        <img src="img/ton katsu.jpg" alt="" style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 5px;
+                        ">
+                    </div>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                        <p class="text-center" style="font-size: 13px; font-weight: 500">
+                            Tonkatsu (豚カツ, とんかつ or トンカツ, pronounced [toŋkatsɯ]; "pork cutlet") is a Japanese dish that
+                            consists of a breaded, deep-fried pork cutlet. It involves coating slices of pork with panko
+                            (bread crumbs), and then frying them in oil. The two main types are fillet and loin.
+                            Tonkatsu is also the basis of other dishes such as katsukarē and katsudon.
+                            Tonkatsu originated in Japan during the Meiji Era in the late 19th century, a dish derived
+                            from a French dish known as côtelette de veau, a veal cutlet coated in breadcrumbs and fried
+                            in a pan with butter.[5]
+
+                            European katsuretsu (loanword/gairaigo for cutlet) was usually made with beef; the pork
+                            version was created in 1899 at a restaurant serving European-style foods, named Rengatei in
+                            Tokyo, Japan.[6][7][8] It's a type of yōshoku—Japanese versions of European cuisine invented
+                            in the late 19th and early 20th centuries—and was called katsuretsu or simply katsu.[9]
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none">
+                    <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                        font-size: 15px;
+                        background-color: rgb(66, 188, 155);
+                        border: none;
+                        position: relative;
+                        bottom: 20px;
+                      ">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="food2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1 class="text-center text-uppercase fw-bold py-3" style="
+                        color: rgb(46, 62, 81);
+                        font-size: 48px;
+                        margin-bottom: -10px;
+                      ">
+                        Tom yum
+                    </h1>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                        <img src="img/tong yam.jpg" alt="" style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 5px;
+                        ">
+                    </div>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                        <p class="text-center" style="font-size: 13px; font-weight: 500">
+                            The soup base depends on the exact sub-type but is generally water, coconut milk, or chicken
+                            or other broth.[5]
+
+                            Various aromatic ingredients are sliced, roughly pounded, and simmered to extract their
+                            flavor. These include fresh ingredients such as lemongrass, kaffir lime leaves, galangal,
+                            chilis, shallots, and garlic. For shrimp-based soups, shrimp shells and heads may also be
+                            simmered, to extract their flavor. These ingredients are often then removed as their flavor
+                            is now extracted and many aren't edible. However they may be left in, as an aid to
+                            presentation.[5]
+
+                            Alternatively, commercial tom yum paste may be used. This is made by crushing all the herb
+                            ingredients and stir frying in oil, then adding seasoning and other preservative
+                            ingredients. The paste is bottled or packaged and sold around the world.
+
+                            Vegetables are then added, such as onion and tomato. In modern popular versions the soup may
+                            also contain mushrooms—usually straw mushrooms or oyster mushrooms.[5]
+
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none">
+                    <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                        font-size: 15px;
+                        background-color: rgb(66, 188, 155);
+                        border: none;
+                        position: relative;
+                        bottom: 20px;
+                      ">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="food3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1 class="text-center text-uppercase fw-bold py-3" style="
+                        color: rgb(46, 62, 81);
+                        font-size: 48px;
+                        margin-bottom: -10px;
+                      ">
+                        Steak
+                    </h1>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                        <img src="img/steak.jpg" alt="" style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 5px;
+                        ">
+                    </div>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                        <p class="text-center" style="font-size: 13px; font-weight: 500">
+                            A steak is a thick cut of meat generally sliced across the muscle fibers, sometimes
+                            including a bone. It is normally grilled or fried. Steak can be diced, cooked in sauce, such
+                            as in steak and kidney pie, or minced and formed into patties, such as hamburgers.
+
+                            Steaks are cut from animals including cattle, bison, buffalo, camel, goat, horse,
+                            kangaroo,[1][2] sheep, ostrich, pigs, turkey, and deer, as well as various types of fish,
+                            especially salmon and large fish such as swordfish, shark, and marlin. For some meats, such
+                            as pork, lamb and mutton, chevon, and veal, these cuts are often referred to as chops. Some
+                            cured meat, such as gammon, is commonly served as steak.
+
+                            Grilled portobello mushroom may be called mushroom steak, and similarly for other vegetarian
+                            dishes.[3] Imitation steak is a food product that is formed into a steak shape from various
+                            pieces of meat. Grilled fruits such as watermelon have been used as vegetarian steak
+                            alternatives.
+
+                            Exceptions, in which the meat is sliced parallel to the fibers, include the skirt steak cut
+                            from the plate, the flank steak cut from the abdominal muscles, and the silverfinger steak
+                            cut from the loin and including three rib bones. In a larger sense, fish steaks, ground meat
+                            steaks, pork steak, and many more varieties of steak are known.
+
+                            In the United States, steak cut from cattle is also called "beefsteak".
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none">
+                    <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                        font-size: 15px;
+                        background-color: rgb(66, 188, 155);
+                        border: none;
+                        position: relative;
+                        bottom: 20px;
+                      ">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="food4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1 class="text-center text-uppercase fw-bold py-3" style="
+                        color: rgb(46, 62, 81);
+                        font-size: 48px;
+                        margin-bottom: -10px;
+                      ">
+                        Grill salmond
+                    </h1>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                        <img src="img/grilled-salmon-final-2-1024x1536.webp" alt="" style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 5px;
+                        ">
+                    </div>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                        <p class="text-center" style="font-size: 13px; font-weight: 500">
+                            This grilled salmon is coated in a flavorful marinade then grilled until golden brown. A
+                            super easy dinner option that will earn you rave reviews! This salmon can also be baked,
+                            broiled or pan seared.
+
+                            My grill is one of my favorite cooking devices, I regularly make grilled chicken tenders,
+                            steak kabobs and this sweet and savory grilled salmon.
+                            There are so many different ways to prepare salmon – it can be baked, broiled, pan seared,
+                            steamed, you name it. In my opinion, the best recipe for this fish is grilled salmon,
+                            especially when there’s a flavorful marinade involved!
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none">
+                    <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                        font-size: 15px;
+                        background-color: rgb(66, 188, 155);
+                        border: none;
+                        position: relative;
+                        bottom: 20px;
+                      ">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="food5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1 class="text-center text-uppercase fw-bold py-3" style="
+                        color: rgb(46, 62, 81);
+                        font-size: 48px;
+                        margin-bottom: -10px;
+                      ">
+                        Newcastle Vs Man UTD
+                    </h1>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                        <img src="img/modal1.jpg" alt="" style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 5px;
+                        ">
+                    </div>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                        <p class="text-center" style="font-size: 13px; font-weight: 500">
+                            Manchester United boss Erik ten Hag speaking to BBC Match of the Day: "We have to give
+                            credit to
+                            Newcastle, they played better than us tonight. We started well, had a chance with Garnacho,
+                            but
+                            then after that they were better.
+
+                            "For a long period they were better than us, and we went 1-0 down. To be fair at the end of
+                            the
+                            game we came back and had some good opportunities. Reguilon, very good chance. The offside
+                            goal.
+                            So yes in the end we fought back but we need to do this over a whole game.
+
+                            On workrate of the team tonight: "You could say we defended quite well [as per the
+                            statistics],
+                            but I prefer for us to stay further away from our goal. I'd prefer us to have more of the
+                            ball
+                            and play in their half. We had our moments where we could make good movements but it was not
+                            enough. We need to be more dominant in a game.
+
+                            On uncertainty between goalkeeper and defence: "In the start there were a few situations,
+                            but
+                            they picked it up and it worked well.
+
+                            On travel issues before the game: "You have to deal with that, it can never be an excuse."
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none">
+                    <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                        font-size: 15px;
+                        background-color: rgb(66, 188, 155);
+                        border: none;
+                        position: relative;
+                        bottom: 20px;
+                      ">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="food6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1 class="text-center text-uppercase fw-bold py-3" style="
+                        color: rgb(46, 62, 81);
+                        font-size: 48px;
+                        margin-bottom: -10px;
+                      ">
+                        Newcastle Vs Man UTD
+                    </h1>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                        <img src="img/modal1.jpg" alt="" style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 5px;
+                        ">
+                    </div>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                        <p class="text-center" style="font-size: 13px; font-weight: 500">
+                            Manchester United boss Erik ten Hag speaking to BBC Match of the Day: "We have to give
+                            credit to
+                            Newcastle, they played better than us tonight. We started well, had a chance with Garnacho,
+                            but
+                            then after that they were better.
+
+                            "For a long period they were better than us, and we went 1-0 down. To be fair at the end of
+                            the
+                            game we came back and had some good opportunities. Reguilon, very good chance. The offside
+                            goal.
+                            So yes in the end we fought back but we need to do this over a whole game.
+
+                            On workrate of the team tonight: "You could say we defended quite well [as per the
+                            statistics],
+                            but I prefer for us to stay further away from our goal. I'd prefer us to have more of the
+                            ball
+                            and play in their half. We had our moments where we could make good movements but it was not
+                            enough. We need to be more dominant in a game.
+
+                            On uncertainty between goalkeeper and defence: "In the start there were a few situations,
+                            but
+                            they picked it up and it worked well.
+
+                            On travel issues before the game: "You have to deal with that, it can never be an excuse."
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none">
+                    <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                        font-size: 15px;
+                        background-color: rgb(66, 188, 155);
+                        border: none;
+                        position: relative;
+                        bottom: 20px;
+                      ">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="food7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1 class="text-center text-uppercase fw-bold py-3" style="
+                        color: rgb(46, 62, 81);
+                        font-size: 48px;
+                        margin-bottom: -10px;
+                      ">
+                        Newcastle Vs Man UTD
+                    </h1>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                        <img src="img/modal1.jpg" alt="" style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 5px;
+                        ">
+                    </div>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                        <p class="text-center" style="font-size: 13px; font-weight: 500">
+                            Manchester United boss Erik ten Hag speaking to BBC Match of the Day: "We have to give
+                            credit to
+                            Newcastle, they played better than us tonight. We started well, had a chance with Garnacho,
+                            but
+                            then after that they were better.
+
+                            "For a long period they were better than us, and we went 1-0 down. To be fair at the end of
+                            the
+                            game we came back and had some good opportunities. Reguilon, very good chance. The offside
+                            goal.
+                            So yes in the end we fought back but we need to do this over a whole game.
+
+                            On workrate of the team tonight: "You could say we defended quite well [as per the
+                            statistics],
+                            but I prefer for us to stay further away from our goal. I'd prefer us to have more of the
+                            ball
+                            and play in their half. We had our moments where we could make good movements but it was not
+                            enough. We need to be more dominant in a game.
+
+                            On uncertainty between goalkeeper and defence: "In the start there were a few situations,
+                            but
+                            they picked it up and it worked well.
+
+                            On travel issues before the game: "You have to deal with that, it can never be an excuse."
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none">
+                    <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                        font-size: 15px;
+                        background-color: rgb(66, 188, 155);
+                        border: none;
+                        position: relative;
+                        bottom: 20px;
+                      ">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="food8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1 class="text-center text-uppercase fw-bold py-3" style="
+                        color: rgb(46, 62, 81);
+                        font-size: 48px;
+                        margin-bottom: -10px;
+                      ">
+                        Newcastle Vs Man UTD
+                    </h1>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                        <img src="img/modal1.jpg" alt="" style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 5px;
+                        ">
+                    </div>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                        <p class="text-center" style="font-size: 13px; font-weight: 500">
+                            Manchester United boss Erik ten Hag speaking to BBC Match of the Day: "We have to give
+                            credit to
+                            Newcastle, they played better than us tonight. We started well, had a chance with Garnacho,
+                            but
+                            then after that they were better.
+
+                            "For a long period they were better than us, and we went 1-0 down. To be fair at the end of
+                            the
+                            game we came back and had some good opportunities. Reguilon, very good chance. The offside
+                            goal.
+                            So yes in the end we fought back but we need to do this over a whole game.
+
+                            On workrate of the team tonight: "You could say we defended quite well [as per the
+                            statistics],
+                            but I prefer for us to stay further away from our goal. I'd prefer us to have more of the
+                            ball
+                            and play in their half. We had our moments where we could make good movements but it was not
+                            enough. We need to be more dominant in a game.
+
+                            On uncertainty between goalkeeper and defence: "In the start there were a few situations,
+                            but
+                            they picked it up and it worked well.
+
+                            On travel issues before the game: "You have to deal with that, it can never be an excuse."
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none">
+                    <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                        font-size: 15px;
+                        background-color: rgb(66, 188, 155);
+                        border: none;
+                        position: relative;
+                        bottom: 20px;
+                      ">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="food9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1 class="text-center text-uppercase fw-bold py-3" style="
+                        color: rgb(46, 62, 81);
+                        font-size: 48px;
+                        margin-bottom: -10px;
+                      ">
+                        Newcastle Vs Man UTD
+                    </h1>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                        <img src="img/modal1.jpg" alt="" style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 5px;
+                        ">
+                    </div>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                        <p class="text-center" style="font-size: 13px; font-weight: 500">
+                            Manchester United boss Erik ten Hag speaking to BBC Match of the Day: "We have to give
+                            credit to
+                            Newcastle, they played better than us tonight. We started well, had a chance with Garnacho,
+                            but
+                            then after that they were better.
+
+                            "For a long period they were better than us, and we went 1-0 down. To be fair at the end of
+                            the
+                            game we came back and had some good opportunities. Reguilon, very good chance. The offside
+                            goal.
+                            So yes in the end we fought back but we need to do this over a whole game.
+
+                            On workrate of the team tonight: "You could say we defended quite well [as per the
+                            statistics],
+                            but I prefer for us to stay further away from our goal. I'd prefer us to have more of the
+                            ball
+                            and play in their half. We had our moments where we could make good movements but it was not
+                            enough. We need to be more dominant in a game.
+
+                            On uncertainty between goalkeeper and defence: "In the start there were a few situations,
+                            but
+                            they picked it up and it worked well.
+
+                            On travel issues before the game: "You have to deal with that, it can never be an excuse."
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none">
+                    <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                        font-size: 15px;
+                        background-color: rgb(66, 188, 155);
+                        border: none;
+                        position: relative;
+                        bottom: 20px;
+                      ">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="food10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1 class="text-center text-uppercase fw-bold py-3" style="
+                        color: rgb(46, 62, 81);
+                        font-size: 48px;
+                        margin-bottom: -10px;
+                      ">
+                        Newcastle Vs Man UTD
+                    </h1>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                        <img src="img/modal1.jpg" alt="" style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 5px;
+                        ">
+                    </div>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                        <p class="text-center" style="font-size: 13px; font-weight: 500">
+                            Manchester United boss Erik ten Hag speaking to BBC Match of the Day: "We have to give
+                            credit to
+                            Newcastle, they played better than us tonight. We started well, had a chance with Garnacho,
+                            but
+                            then after that they were better.
+
+                            "For a long period they were better than us, and we went 1-0 down. To be fair at the end of
+                            the
+                            game we came back and had some good opportunities. Reguilon, very good chance. The offside
+                            goal.
+                            So yes in the end we fought back but we need to do this over a whole game.
+
+                            On workrate of the team tonight: "You could say we defended quite well [as per the
+                            statistics],
+                            but I prefer for us to stay further away from our goal. I'd prefer us to have more of the
+                            ball
+                            and play in their half. We had our moments where we could make good movements but it was not
+                            enough. We need to be more dominant in a game.
+
+                            On uncertainty between goalkeeper and defence: "In the start there were a few situations,
+                            but
+                            they picked it up and it worked well.
+
+                            On travel issues before the game: "You have to deal with that, it can never be an excuse."
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none">
+                    <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                        font-size: 15px;
+                        background-color: rgb(66, 188, 155);
+                        border: none;
+                        position: relative;
+                        bottom: 20px;
+                      ">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="food11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1 class="text-center text-uppercase fw-bold py-3" style="
+                        color: rgb(46, 62, 81);
+                        font-size: 48px;
+                        margin-bottom: -10px;
+                      ">
+                        Newcastle Vs Man UTD
+                    </h1>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                        <img src="img/modal1.jpg" alt="" style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 5px;
+                        ">
+                    </div>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                        <p class="text-center" style="font-size: 13px; font-weight: 500">
+                            Manchester United boss Erik ten Hag speaking to BBC Match of the Day: "We have to give
+                            credit to
+                            Newcastle, they played better than us tonight. We started well, had a chance with Garnacho,
+                            but
+                            then after that they were better.
+
+                            "For a long period they were better than us, and we went 1-0 down. To be fair at the end of
+                            the
+                            game we came back and had some good opportunities. Reguilon, very good chance. The offside
+                            goal.
+                            So yes in the end we fought back but we need to do this over a whole game.
+
+                            On workrate of the team tonight: "You could say we defended quite well [as per the
+                            statistics],
+                            but I prefer for us to stay further away from our goal. I'd prefer us to have more of the
+                            ball
+                            and play in their half. We had our moments where we could make good movements but it was not
+                            enough. We need to be more dominant in a game.
+
+                            On uncertainty between goalkeeper and defence: "In the start there were a few situations,
+                            but
+                            they picked it up and it worked well.
+
+                            On travel issues before the game: "You have to deal with that, it can never be an excuse."
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none">
+                    <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                        font-size: 15px;
+                        background-color: rgb(66, 188, 155);
+                        border: none;
+                        position: relative;
+                        bottom: 20px;
+                      ">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="food12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1 class="text-center text-uppercase fw-bold py-3" style="
+                        color: rgb(46, 62, 81);
+                        font-size: 48px;
+                        margin-bottom: -10px;
+                      ">
+                        Newcastle Vs Man UTD
+                    </h1>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                        <img src="img/modal1.jpg" alt="" style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 5px;
+                        ">
+                    </div>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                        <p class="text-center" style="font-size: 13px; font-weight: 500">
+                            Manchester United boss Erik ten Hag speaking to BBC Match of the Day: "We have to give
+                            credit to
+                            Newcastle, they played better than us tonight. We started well, had a chance with Garnacho,
+                            but
+                            then after that they were better.
+
+                            "For a long period they were better than us, and we went 1-0 down. To be fair at the end of
+                            the
+                            game we came back and had some good opportunities. Reguilon, very good chance. The offside
+                            goal.
+                            So yes in the end we fought back but we need to do this over a whole game.
+
+                            On workrate of the team tonight: "You could say we defended quite well [as per the
+                            statistics],
+                            but I prefer for us to stay further away from our goal. I'd prefer us to have more of the
+                            ball
+                            and play in their half. We had our moments where we could make good movements but it was not
+                            enough. We need to be more dominant in a game.
+
+                            On uncertainty between goalkeeper and defence: "In the start there were a few situations,
+                            but
+                            they picked it up and it worked well.
+
+                            On travel issues before the game: "You have to deal with that, it can never be an excuse."
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none">
+                    <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                        font-size: 15px;
+                        background-color: rgb(66, 188, 155);
+                        border: none;
+                        position: relative;
+                        bottom: 20px;
+                      ">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="food13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1 class="text-center text-uppercase fw-bold py-3" style="
+                        color: rgb(46, 62, 81);
+                        font-size: 48px;
+                        margin-bottom: -10px;
+                      ">
+                        Newcastle Vs Man UTD
+                    </h1>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                        <img src="img/modal1.jpg" alt="" style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 5px;
+                        ">
+                    </div>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                        <p class="text-center" style="font-size: 13px; font-weight: 500">
+                            Manchester United boss Erik ten Hag speaking to BBC Match of the Day: "We have to give
+                            credit to
+                            Newcastle, they played better than us tonight. We started well, had a chance with Garnacho,
+                            but
+                            then after that they were better.
+
+                            "For a long period they were better than us, and we went 1-0 down. To be fair at the end of
+                            the
+                            game we came back and had some good opportunities. Reguilon, very good chance. The offside
+                            goal.
+                            So yes in the end we fought back but we need to do this over a whole game.
+
+                            On workrate of the team tonight: "You could say we defended quite well [as per the
+                            statistics],
+                            but I prefer for us to stay further away from our goal. I'd prefer us to have more of the
+                            ball
+                            and play in their half. We had our moments where we could make good movements but it was not
+                            enough. We need to be more dominant in a game.
+
+                            On uncertainty between goalkeeper and defence: "In the start there were a few situations,
+                            but
+                            they picked it up and it worked well.
+
+                            On travel issues before the game: "You have to deal with that, it can never be an excuse."
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none">
+                    <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                        font-size: 15px;
+                        background-color: rgb(66, 188, 155);
+                        border: none;
+                        position: relative;
+                        bottom: 20px;
+                      ">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="food14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1 class="text-center text-uppercase fw-bold py-3" style="
+                        color: rgb(46, 62, 81);
+                        font-size: 48px;
+                        margin-bottom: -10px;
+                      ">
+                        Newcastle Vs Man UTD
+                    </h1>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                        <img src="img/modal1.jpg" alt="" style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 5px;
+                        ">
+                    </div>
+                    <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                        <p class="text-center" style="font-size: 13px; font-weight: 500">
+                            Manchester United boss Erik ten Hag speaking to BBC Match of the Day: "We have to give
+                            credit to
+                            Newcastle, they played better than us tonight. We started well, had a chance with Garnacho,
+                            but
+                            then after that they were better.
+
+                            "For a long period they were better than us, and we went 1-0 down. To be fair at the end of
+                            the
+                            game we came back and had some good opportunities. Reguilon, very good chance. The offside
+                            goal.
+                            So yes in the end we fought back but we need to do this over a whole game.
+
+                            On workrate of the team tonight: "You could say we defended quite well [as per the
+                            statistics],
+                            but I prefer for us to stay further away from our goal. I'd prefer us to have more of the
+                            ball
+                            and play in their half. We had our moments where we could make good movements but it was not
+                            enough. We need to be more dominant in a game.
+
+                            On uncertainty between goalkeeper and defence: "In the start there were a few situations,
+                            but
+                            they picked it up and it worked well.
+
+                            On travel issues before the game: "You have to deal with that, it can never be an excuse."
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none">
+                    <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                        font-size: 15px;
+                        background-color: rgb(66, 188, 155);
+                        border: none;
+                        position: relative;
+                        bottom: 20px;
+                      ">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<footer class="py-4">
+    <div class="container d-flex">
+        <div class="content-left">
+            <div class="col-xl-4 col-lg-5 col-md-7">
+                <div class="media">
+                    <div class="facebook">
+                        <a class="media_link" href="http://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div class="youtube">
+                        <a class="media_link" href="http://youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <div class="x">
+                        <a class="media_link" href="http://x.com"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <div class="instagram">
+                        <a class="media_link" href="http://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-10 col-md-12 term_privacy">
+                A broad agreement laying out the terms — payment, conduct, or otherwise — by which the user and
+                website owner will conduct their relationship.
+            </div>
+        </div>
+        <div class="content-right">
+            <div class="container d-flex justify-content-between">
+                <div class="category_list">
+                    <h1>Category</h1>
+                    <a href="sport.html" class="cate_list">Sport</a><br>
+                    <a href="esport.html" class="cate_list">Esport</a><br>
+                    <a href="news.html" class="cate_list">Travel</a><br>
+                    <a href="#" class="cate_list">Food</a>
+                </div>
+                <div class="faq_lists">
+                    <h1>FAQ</h1>
+                    <a href="#" class="cate_list">Who are we?</a><br>
+                    <a href="#" class="cate_list">How to become a member?</a><br>
+                    <a href="#" class="cate_list">When we started our website?</a><br>
+                    <a href="#" class="cate_list">How many members are there?</a><br>
+                </div>
+                <div class="about_us_lists">
+                    <h1>About Us</h1>
+                    <a href="#" class="cate_list">Email</a><br>
+                    <a href="#" class="cate_list">Maps</a><br>
+                    <a href="#" class="cate_list">Phone Number</a><br>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</footer>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854"
+    integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg=="
+    data-cf-beacon='{"rayId":"80fcd4497f2451d6","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.8.0","si":100}'
+    crossorigin="anonymous">
+    </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+
+</html>

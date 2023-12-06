@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To CamboBlog</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap5.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="img/Banco_Zaragozano_logo-1.svg">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark p-4 sticky-top" aria-label="Offcanvas navbar large"
+        style="background-color: black;">
+        <div class="container-fluid">
+            <a class="menu_title navbar-brand" href="#">Cambo.Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+                aria-controls="offcanvasNavbar2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Cambo.Blog</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="main_menu navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item cate_menu" style="position: relative;">
+                            <a class="nav-link" href="#">Category</a>
+                            <div class="cate_drop py-3">
+                                <a href="sport.html" class="nav-link">Sport</a>
+                                <a href="food.html" class="nav-link">Food</a>
+                                <a href="news.html" class="nav-link">Travel</a>
+                                <a href="esport.html" class="nav-link">Esport</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="map.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                    </ul>
+                    <div class="pfp d-flex mt-3 mt-lg-0">
+                        <div class="circle">
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="circle">
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="bg-banner">
+        <div class="bg-fade">
+            <div class="col-lg-5">
+                <h1 data-aos="fade-right" style="text-align: center; color: white;">Welcome to CamboBlog where we share
+                    about daily Travels,
+                    sport, esport and food.</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="album">
+        <div class="container-lg">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="margin-top: -100px;">
+                <div class="col-lg col-md-12 col-sm-12 col-12" data-aos="fade-up-left">
+                    <div class="card d-flex align-items-center justify-content-center box">
+                        <img src="img/index1.jpg" alt="">
+                        <div class="index-detail" data-bs-toggle="modal" data-bs-target="#index1">
+                            <h1 style="color: white; font-size: 20px; margin-top: 180px; padding-left: 10px;">Newcastle
+                                United vs Manchester United 1-0 Premier League as it happened</h1>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg col-md-12 col-sm-12 col-12" data-aos="zoom-in">
+                    <div class="card d-flex align-items-center justify-content-center box">
+                        <img src="img/index2.jpg" alt="">
+                        <div class="index-detail" data-bs-toggle="modal" data-bs-target="#index2">
+                            <h1 style="color: white; font-size: 20px; margin-top: 180px; padding-left: 10px;">The
+                                Overwatch League Ruled Esports. Then Everything Went Wrong</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg col-md-12 col-sm-12 col-12" data-aos="fade-right">
+                    <div class="card d-flex align-items-center justify-content-center box">
+                        <img src="img/index3.jpg" alt="">
+                        <div class="index-detail" data-bs-toggle="modal" data-bs-target="#index3">
+                            <h1 style="color: white; font-size: 20px; margin-top: 180px; padding-left: 10px;">The
+                                McDonald's Has a New Adult Happy Meal, and It Comes With a Classic Toy</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="album py-5 mt-3">
+        <h1 class="text-center fw-bold" style="color: rgb(46, 62, 81); font-size: 48px">
+            Most Views
+        </h1>
+        <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 align-items-center justify-content-between">
+                <div class="views_box col-sm-12 col-lg-4 col-md-6 mt-4" data-aos="zoom-in-left">
+                    <div class="card most_views pb-3">
+                        <div class="most_views_img">
+                            <img src="img/most1.jpeg" alt="">
+                        </div>
+                        <div class="most_views_detail">
+                            <div class="most_views_category">Sport</div>
+                            <div class="most_views_date">03 Dec 2023</div>
+                        </div>
+                        <div class="most_views_desc">
+                            A first Tyne-Wear derby since 2016 and the first time Sunderland have been pulled out to
+                            play Newcastle in the FA Cup since beating them in a quarter-final in 1956 was the pick of
+                            the third-round draw for the 2023-24 tournament. Eddie Howe’s side, fifth in the Premier
+                            League, will travel to the Stadium of Light to take on their Championship neighbours over
+                            the weekend of Jan 5-8.</div>
+                    </div>
+                </div>
+                <div class="views_box col-sm-12 col-lg-4 col-md-6 mt-4" data-aos="zoom-in-up">
+                    <div class="card most_views pb-3">
+                        <div class="most_views_img">
+                            <img src="img/most2.jpg" alt="">
+                        </div>
+                        <div class="most_views_detail">
+                            <div class="most_views_category">Esport</div>
+                            <div class="most_views_date">15 Oct 2023</div>
+                        </div>
+                        <div class="most_views_desc">LUCAS “MENDO” HÅKANSSON was playing video games for work, but he
+                            was not having a good time. He’d sacrificed a lot to be a pro gamer, dropping out of high
+                            school to practice Overwatch for up to 18 hours a day. When the Houston Outlaws tapped him
+                            to play Overwatch professionally in 2017, he was thrilled. It seemed like his efforts had
+                            finally earned him his dream job. Then, reality struck.</div>
+                    </div>
+                </div>
+                <div class="views_box col-sm-12 col-lg-4 col-md-6 mt-4" data-aos="zoom-in-right">
+                    <div class="card most_views pb-3">
+                        <div class="most_views_img">
+                            <img src="img/most3.jpg" alt="">
+                        </div>
+                        <div class="most_views_detail">
+                            <div class="most_views_category">News</div>
+                            <div class="most_views_date">03 Dec 2023</div>
+                        </div>
+                        <div class="most_views_desc">European security officials have warned of a growing risk of
+                            attacks by Islamists amid the Israel-Hamas war, with the biggest threat likely from "lone
+                            wolf" assailants who are hard to track.
+
+                            "I send all my condolences to the family and loved ones of the German national who died this
+                            evening during the terrorist attack in Paris and think with emotion of the people currently
+                            injured and in care,"</div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 col-md-6 mt-4" data-aos="zoom-in-right">
+                    <div class="card most_views pb-3">
+                        <div class="most_views_img">
+                            <img src="img/most4.jpg" alt="">
+                        </div>
+                        <div class="most_views_detail">
+                            <div class="most_views_category">News</div>
+                            <div class="most_views_date">03 Dec 2023</div>
+                        </div>
+                        <div class="most_views_desc">Confusion and fear gripped much of southern Gaza on Sunday as
+                            Israel’s military ordered more residents to clear out and fighting there intensified.
+
+                            The Israeli military’s latest evacuation orders appeared to be setting the stage for a
+                            ground invasion in the south since hostilities started again after the collapse of a
+                            weeklong truce with Hamas. They evoked similar orders given by the Israeli military...</div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 col-md-6 mt-4" data-aos="zoom-in-down">
+                    <div class="card most_views pb-3">
+                        <div class="most_views_img">
+                            <img src="img/most5.jpg" alt="">
+                        </div>
+                        <div class="most_views_detail">
+                            <div class="most_views_category">Food</div>
+                            <div class="most_views_date">03 Dec 2023</div>
+                        </div>
+                        <div class="most_views_desc">I am squirrelling away a growing collection of good things ready
+                            for
+                            Christmas. The plum pudding is already in its crackle-glazed china bowl; three or four jars
+                            of dark, brandy-spiked mincemeat and some pickled pears await the big day in the kitchen
+                            cupboard. Add to that this week’s large jars of dried apricots, plump and full of sweet wine
+                            and the row of tubby pots of chutney,</div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 col-md-6 mt-4" data-aos="zoom-in-left">
+                    <div class="card most_views pb-3">
+                        <div class="most_views_img">
+                            <img src="img/most6.jpg" alt="">
+                        </div>
+                        <div class="most_views_detail">
+                            <div class="most_views_category">Sport</div>
+                            <div class="most_views_date">03 Dec 2023</div>
+                        </div>
+                        <div class="most_views_desc">
+                            For an NBA great like LeBron James, there are small moments on the court that define their
+                            greatness as much as any statistic, and when they happen, they tend to transcend the game in
+                            which they are moored, becoming emblematic of all their achievements.
+
+                            James enjoyed such a moment on Saturday in his LA Lakers’ 107-97 win over the Houston
+                            Rockets, as he pivoted past the defense and pulled off an incredible..
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="album explore mt-2 py-5" style="background-color: gainsboro;">
+        <div class="container-lg">
+            <h1 class="text-center fw-bold" style="color: rgb(46, 62, 81); font-size: 48px;">
+                Explore
+            </h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 align-items-center justify-content-between mt-3">
+                <div class="col-lg col-sm-12 col-lg-6 col-md-6 col-xl col-xl-3" data-aos="zoom-in">
+                    <div class="card explore" style="background-image: url(../img/exp1.jpg);">
+                        <a href="sport.html" style="text-decoration: none;">
+                            <div class="bg-explore d-flex justify-content-center align-items-center">
+                                <h1 style="color: white; font-size: 50px;"><i>Sport</i></h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-12 col-lg-6 col-md-6 col-xl-3" data-aos="zoom-in">
+                    <div class="card explore" style="background-image: url(../img/exp2.jpg);">
+                        <a href="esport.html" style="text-decoration: none;">
+                            <div class="bg-explore d-flex justify-content-center align-items-center">
+                                <h1 style="color: white; font-size: 50px;"><i>Esport</i></h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-12 col-lg-6 col-md-6 col-xl-3" data-aos="zoom-in">
+                    <div class="card explore" style="background-image: url(../img/exp3.jpg);">
+                        <a href="news.html" style="text-decoration: none;">
+                            <div class="bg-explore d-flex justify-content-center align-items-center">
+                                <h1 style="color: white; font-size: 50px;"><i>News</i></h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-sm-12 col-lg-6 col-md-6 col-xl-3" data-aos="zoom-in">
+                    <div class="card explore" style="background-image: url(../img/exp4.jpg);">
+                        <a href="food.html" style="text-decoration: none;">
+                            <div class="bg-explore d-flex justify-content-center align-items-center">
+                                <h1 style="color: white; font-size: 50px;"><i>Food</i></h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="position: relative; margin-top: 50px;">
+        <h1 class="text-center fw-bold" style="color: rgb(46, 62, 81); font-size: 48px;">
+            Our Team
+        </h1>
+        <div class="swiper-container" style="margin-top: 30px;">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="imgbox">
+                            <img src="img/smey.avif" alt="">
+                        </div>
+                        <div class="mem-name">Phall Reaksmey</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgbox">
+                            <img src="img/sue.avif" alt="">
+                        </div>
+                        <div class="mem-name">Tes MengSoeu</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgbox">
+                            <img src="img/kemheng.avif" alt="">
+                        </div>
+                        <div class="mem-name">Cheng Kemheng</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgbox">
+                            <img src="img/lyheng.jpg" alt="">
+                        </div>
+                        <div class="mem-name">Oeur Lyheng</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgbox">
+                            <img src="img/hour.avif" alt="">
+                        </div>
+                        <div class="mem-name">Choch Kemhour</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgbox">
+                            <img src="img/soun lean.avif" alt="">
+                        </div>
+                        <div class="mem-name">Suon Lean</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgbox">
+                            <img src="img/soun ty.jpg" alt="">
+                        </div>
+                        <div class="mem-name">Suon Ty</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgbox">
+                            <img src="img/sothearo.jpg " alt="">
+                        </div>
+                        <div class="mem-name">Leang Sothearo</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgbox">
+                            <img src="img/mok sing.avif" alt="">
+                        </div>
+                        <div class="mem-name">Ly Moksing</div>
+                    </div>
+                </div>
+                <div class="swiper-btns">
+                    <div class="swiper-button-prev">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+</body>
+<footer class="py-4">
+    <div class="container d-flex">
+        <div class="content-left">
+            <div class="col-xl-4 col-lg-5 col-md-7">
+                <div class="media">
+                    <div class="facebook">
+                        <a class="media_link" href="http://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div class="youtube">
+                        <a class="media_link" href="http://youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <div class="x">
+                        <a class="media_link" href="http://x.com"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <div class="instagram">
+                        <a class="media_link" href="http://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-10 col-md-12 term_privacy">
+                A broad agreement laying out the terms — payment, conduct, or otherwise — by which the user and
+                website owner will conduct their relationship.
+            </div>
+        </div>
+        <div class="content-right">
+            <div class="container d-flex justify-content-between">
+                <div class="category_list">
+                    <h1>Category</h1>
+                    <a href="sport.html" class="cate_list">Sport</a><br>
+                    <a href="esport.html" class="cate_list">Esport</a><br>
+                    <a href="news.html" class="cate_list">News</a><br>
+                    <a href="food.html" class="cate_list">Food</a>
+                </div>
+                <div class="faq_lists">
+                    <h1>FAQ</h1>
+                    <a href="#" class="cate_list">Who are we?</a><br>
+                    <a href="#" class="cate_list">How to become a member?</a><br>
+                    <a href="#" class="cate_list">When we started our website?</a><br>
+                    <a href="#" class="cate_list">How many members are there?</a><br>
+                </div>
+                <div class="about_us_lists">
+                    <h1>About Us</h1>
+                    <a href="#" class="cate_list">Email</a><br>
+                    <a href="#" class="cate_list">Maps</a><br>
+                    <a href="#" class="cate_list">Phone Number</a><br>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</footer>
+<div class="modal fade" id="index1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h1 class="text-center text-uppercase fw-bold py-3" style="
+                    color: rgb(46, 62, 81);
+                    font-size: 48px;
+                    margin-bottom: -10px;
+                  ">
+                    Newcastle Vs Man UTD
+                </h1>
+                <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                    <img src="img/modal1.jpg" alt="" style="
+                      width: 100%;
+                      height: 100%;
+                      object-fit: cover;
+                      border-radius: 5px;
+                    ">
+                </div>
+                <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                    <p class="text-center" style="font-size: 13px; font-weight: 500">
+                        Manchester United boss Erik ten Hag speaking to BBC Match of the Day: "We have to give credit to
+                        Newcastle, they played better than us tonight. We started well, had a chance with Garnacho, but
+                        then after that they were better.
+
+                        "For a long period they were better than us, and we went 1-0 down. To be fair at the end of the
+                        game we came back and had some good opportunities. Reguilon, very good chance. The offside goal.
+                        So yes in the end we fought back but we need to do this over a whole game.
+
+                        On workrate of the team tonight: "You could say we defended quite well [as per the statistics],
+                        but I prefer for us to stay further away from our goal. I'd prefer us to have more of the ball
+                        and play in their half. We had our moments where we could make good movements but it was not
+                        enough. We need to be more dominant in a game.
+
+                        On uncertainty between goalkeeper and defence: "In the start there were a few situations, but
+                        they picked it up and it worked well.
+
+                        On travel issues before the game: "You have to deal with that, it can never be an excuse."
+                    </p>
+                </div>
+            </div>
+            <div class="modal-footer" style="border: none">
+                <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                    font-size: 15px;
+                    background-color: rgb(66, 188, 155);
+                    border: none;
+                    position: relative;
+                    bottom: 20px;
+                  ">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="index2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h1 class="text-center text-uppercase fw-bold py-3" style="
+                    color: rgb(46, 62, 81);
+                    font-size: 48px;
+                    margin-bottom: -10px;
+                  ">
+                    Overwatch League Ruled Esports
+                </h1>
+                <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                    <img src="img/modal2.jpg" alt="" style="
+                      width: 100%;
+                      height: 100%;
+                      object-fit: cover;
+                      border-radius: 5px;
+                    ">
+                </div>
+                <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                    <p class="text-center" style="font-size: 13px; font-weight: 500">
+                        SINCE ITS FORMATION in 2017, the Overwatch League—the professional esports program for
+                        Activision Blizzard’s Overwatch hero shooter—has drawn frequent comparisons to traditional
+                        sporting institutions. Its stated aim, as WIRED put it in a 2017 feature, was to become the new
+                        US National Football League.
+
+                        The two institutions certainly overlapped: The Overwatch League was the first major esports
+                        league to franchise local teams in major cities, and it features live spectator events with
+                        hometown crowds and salaried athletes. The goal was to offer esports fans a more traditional
+                        sports model, where they could go to a local arena or venue, see their hometown team play
+                        against an “away” team, and cheer during the event. The model offered local pop-up stores, team
+                        merchandise, ticket sales, media rights, and licensing.
+
+                        Well-known sports tycoons co-own multiple esports teams. Steve Bornstein was CEO of the NFL
+                        Network before he became Blizzard’s esports chair. (He told WIRED in 2017, “When I left the NFL,
+                        the only thing I saw that had the potential to be as big was the esports space.”) No more potent
+                        symbol of the league’s ambition existed than the plans for a Philadelphia Fusion stadium: a $50
+                        million, 65,000-square-foot, 3,500-seat arena, projected to turn Philadelphia into an “esports
+                        town.”
+                    </p>
+                </div>
+            </div>
+            <div class="modal-footer" style="border: none">
+                <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                    font-size: 15px;
+                    background-color: rgb(66, 188, 155);
+                    border: none;
+                    position: relative;
+                    bottom: 20px;
+                  ">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="index3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h1 class="text-center text-uppercase fw-bold py-3" style="
+                    color: rgb(46, 62, 81);
+                    font-size: 48px;
+                    margin-bottom: -10px;
+                  ">
+                    McDonald Happy Meal
+                </h1>
+                <div class="col-lg-8 col-md-11 col-sm-11 col-11 m-auto">
+                    <img src="img/modal3.jpg" alt="" style="
+                      width: 100%;
+                      height: 100%;
+                      object-fit: cover;
+                      border-radius: 5px;
+                    ">
+                </div>
+                <div class="col-lg-8 col-md-11 col-sm-11 col-11 mt-3 m-auto">
+                    <p class="text-center" style="font-size: 13px; font-weight: 500">
+                        This is truly the most wonderful time of the year – and not just because of the holiday cheer,
+                        getting a daily chocolate fix from our advent calendar, and the return of Mariah Carey to her
+                        chilly seasonal throne. On top of all of that, McDonald’s is bringing back its “adult” Happy
+                        Meals, complete with one of six different toys that you can prop up on the corner of your desk.
+
+                        Last year, McD’s catered to our inner children with the release of its Cactus Plant Flea Market
+                        box, a collaboration with the fashion and lifestyle brand. (That one turned out to be so popular
+                        that a set of the CPFM toys — including that covetable four-eyed Grimace — are currently listed
+                        on eBay for $30,000.)
+
+                        "With last year's Cactus Plant Flea Market Box, we unlocked the childlike joy of opening a Happy
+                        Meal box for fans of all ages," Tariq Hassan, McDonald's USA chief marketing and customer
+                        experience officer, said in a statement. "Fans told us they wanted to celebrate that
+                        quintessential childhood experience again.."
+
+                        This year's Happy Meal is officially called "The Kerwin Frost Box" and has been designed in
+                        partnership with multi-hyphenate DJ, designer, and streetwear icon Kerwin Frost. Customers who
+                        order the Kerwin Frost Box can choose either a 10-piece Chicken McNuggets or a Big Mac to
+                        accompany their fries and soda of choice. The boxes also come with one of six different McNugget
+                        Buddy toys (remember those???) that have been reimagined by Frost — and there's even a Kerwin
+                        Frost McNugget Buddy that has his signature pencil tattoo.
+
+
+                    </p>
+                </div>
+            </div>
+            <div class="modal-footer" style="border: none">
+                <button type="button" class="btn btn-secondary m-auto" data-bs-dismiss="modal" style="
+                    font-size: 15px;
+                    background-color: rgb(66, 188, 155);
+                    border: none;
+                    position: relative;
+                    bottom: 20px;
+                  ">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854"
+    integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg=="
+    data-cf-beacon='{"rayId":"80fcd4497f2451d6","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.8.0","si":100}'
+    crossorigin="anonymous">
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            700: {
+                slidesPerView: 1,
+            },
+            800: {
+                slidesPerView: 2,
+            },
+            1200: {
+                slidesPerView: 3,
+            }
+        },
+    });
+</script>
+<script>
+    AOS.init();
+</script>
+
+</html>
